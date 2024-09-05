@@ -1,16 +1,16 @@
 #
 # Translators:
-# paul bolger <pbolger@gmail.com>, 2015-2016
+# Roland Giesler, 2024
 msgid ""
 msgstr ""
 "Project-Id-Version: LedgerSMB\n"
 "Report-Msgid-Bugs-To: devel@lists.ledgersmb.org\n"
 "POT-Creation-Date: 2024-08-10 20:46+0000\n"
 "PO-Revision-Date: 2015-12-24 17:27+0000\n"
-"Last-Translator: paul bolger <pbolger@gmail.com>, 2015-2016\n"
-"Language-Team: English (New Zealand) (http://www.transifex.com/ledgersmb/"
-"ledgersmb/language/en_NZ/)\n"
-"Language: en_NZ\n"
+"Last-Translator: Roland Giesler <roland@giesler.za.net>, 2024\n"
+"Language-Team: English (South Africa) (http://www.transifex.com/ledgersmb/"
+"ledgersmb/language/en_ZA/)\n"
+"Language: en_ZA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -689,7 +689,7 @@ msgid "Amount"
 msgstr ""
 
 #: lib/LedgerSMB/Report/Budget/Variance.pm:84
-msgid "Amount Budgetted"
+msgid "Amount Budgeted"
 msgstr "Amount Budgeted"
 
 #: lib/LedgerSMB/Report/Invoices/Outstanding.pm:255
@@ -810,11 +810,11 @@ msgstr ""
 
 #: lib/LedgerSMB/Scripts/asset.pm:765 lib/LedgerSMB/Scripts/asset.pm:879
 #: lib/LedgerSMB/Scripts/asset.pm:987
-msgid "Aquired Value"
+msgid "Acquired Value"
 msgstr ""
 
 #: lib/LedgerSMB/Scripts/asset.pm:903
-msgid "Aquired Value Remaining"
+msgid "Acquired Value Remaining"
 msgstr ""
 
 #: old/bin/oe.pl:1308
@@ -1163,7 +1163,7 @@ msgid "Batches"
 msgstr ""
 
 #: UI/email.html:45
-msgid "Bcc"
+msgid "bcc"
 msgstr ""
 
 #: UI/reconciliation/report.html:41
@@ -1273,7 +1273,7 @@ msgstr ""
 #: UI/Contact/pricelist.html:127 UI/Reports/PNL.html:117
 #: UI/Reports/aging_report.html:101 UI/Reports/balance_sheet.html:116
 #: UI/Reports/display_report.html:60
-msgid "CSV"
+msgid "csv"
 msgstr ""
 
 #: old/bin/ir.pl:763 old/bin/is.pl:411 old/bin/is.pl:856
@@ -1304,11 +1304,11 @@ msgid "Cannot Repost Transaction"
 msgstr ""
 
 #: old/bin/ic.pl:134
-msgid "Cannot create Labor; COGS account does not exist!"
+msgid "Cannot create Labour; COGS account does not exist!"
 msgstr ""
 
 #: old/bin/ic.pl:131
-msgid "Cannot create Labor; Inventory account does not exist!"
+msgid "Cannot create Labour; Inventory account does not exist!"
 msgstr ""
 
 #: old/bin/ic.pl:113
@@ -1402,7 +1402,7 @@ msgid "Category"
 msgstr ""
 
 #: UI/email.html:36
-msgid "Cc"
+msgid "cc"
 msgstr ""
 
 #: UI/users/preferences.html:15
@@ -1439,7 +1439,7 @@ msgstr ""
 
 #: lib/LedgerSMB/Scripts/configuration.pm:135
 msgid "Check Prefix"
-msgstr "Cheque Prefix"
+msgstr "Check Prefix"
 
 #: UI/setup/confirm_operation.html:115
 msgid "Check consistency"
@@ -1567,7 +1567,7 @@ msgstr ""
 
 #: lib/LedgerSMB/Scripts/configuration.pm:54
 msgid "Company License Number"
-msgstr ""
+msgstr "Company Registration Number"
 
 #: lib/LedgerSMB/Report/Invoices/Payments.pm:141
 #: lib/LedgerSMB/Scripts/configuration.pm:36
@@ -1580,7 +1580,7 @@ msgstr ""
 
 #: lib/LedgerSMB/Scripts/configuration.pm:52
 msgid "Company Sales Tax ID"
-msgstr ""
+msgstr "Company VAT number"
 
 #: UI/Reports/filters/balance_sheet.html:138
 msgid "Comparison Dates"
@@ -1955,15 +1955,15 @@ msgstr "Debtor"
 
 #: lib/LedgerSMB/Report/Invoices/Transactions.pm:249
 msgid "Customer Account"
-msgstr ""
+msgstr "Debtor Account"
 
 #: sql/Pg-database.sql:2250
 msgid "Customer History"
-msgstr ""
+msgstr "Debtor History"
 
 #: UI/Contact/divs/credit.html:376
 msgid "Customer Invoice"
-msgstr ""
+msgstr "Debtor Invoice"
 
 #: UI/Reports/filters/orders.html:8 UI/payments/payment1.html:44
 #: UI/payments/payment2.html:28
@@ -1983,7 +1983,7 @@ msgstr "Debtor Number"
 
 #: UI/Reports/filters/contact_search.html:12
 msgid "Customer Search"
-msgstr ""
+msgstr "Debtor Search"
 
 #: old/bin/aa.pl:1478 old/bin/is.pl:1358 old/bin/oe.pl:1172 old/bin/pe.pl:1151
 msgid "Customer missing!"
@@ -2674,7 +2674,7 @@ msgstr "Email address missing"
 
 #: lib/LedgerSMB/Scripts/report_aging.pm:206
 msgid "E-mail aging reminder status"
-msgstr ""
+msgstr "Email aging reminder status"
 
 #: old/bin/arap.pl:448
 msgid "E-mail message"
@@ -2770,7 +2770,7 @@ msgstr ""
 
 #: old/bin/is.pl:152
 msgid "Edit Sales Invoice"
-msgstr ""
+msgstr "Edit Debtor Invoice"
 
 #: old/bin/oe.pl:106
 msgid "Edit Sales Order"
@@ -2798,7 +2798,7 @@ msgstr "Edit Creditor Invoice"
 
 #: old/bin/ir.pl:137
 msgid "Edit Vendor Return"
-msgstr ""
+msgstr "Edit Creditor Return"
 
 #: UI/Contact/divs/user.html:17 UI/setup/edit_user.html:14
 msgid "Editing User"
@@ -2875,11 +2875,11 @@ msgstr ""
 
 #: lib/LedgerSMB/Upgrade_Tests.pm:810
 msgid "Empty customernumbers"
-msgstr ""
+msgstr "Empty debtornumbers"
 
 #: lib/LedgerSMB/Upgrade_Tests.pm:930
 msgid "Empty vendornumbers"
-msgstr ""
+msgstr "Empty suppliernumbers"
 
 #: lib/LedgerSMB/Report/Budget/Search.pm:126
 #: lib/LedgerSMB/Report/Budget/Search.pm:77
