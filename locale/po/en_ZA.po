@@ -2879,7 +2879,7 @@ msgstr "Empty debtornumbers"
 
 #: lib/LedgerSMB/Upgrade_Tests.pm:930
 msgid "Empty vendornumbers"
-msgstr "Empty suppliernumbers"
+msgstr "Empty creditornumbers"
 
 #: lib/LedgerSMB/Report/Budget/Search.pm:126
 #: lib/LedgerSMB/Report/Budget/Search.pm:77
@@ -4185,7 +4185,7 @@ msgid "Liability"
 msgstr ""
 
 #: UI/Contact/divs/company.html:110
-msgid "License Number"
+msgid "Registration Number"
 msgstr ""
 
 #: lib/LedgerSMB/Report/Invoices/COGS.pm:176
@@ -5193,7 +5193,7 @@ msgstr ""
 
 #: templates/demo/printPayment.html:83
 msgid "Pay in behalf of"
-msgstr ""
+msgstr "Pay on behalf of"
 
 #: UI/accounts/edit.html:384
 msgid "Payables"
@@ -6190,7 +6190,7 @@ msgstr ""
 
 #: UI/payments/payment1.html:55
 msgid "SSN"
-msgstr "SIN"
+msgstr "ID#"
 
 #: sql/Pg-database.sql:628
 msgid "Salary"
@@ -6240,7 +6240,7 @@ msgstr ""
 #: lib/LedgerSMB/Report/Taxform/Summary.pm:101 UI/Contact/divs/company.html:102
 #: UI/Reports/filters/taxforms.html:110
 msgid "Sales Tax ID"
-msgstr ""
+msgstr "VAT Number"
 
 #: UI/templates/widget.html:69
 msgid "Sales order"
@@ -6539,7 +6539,7 @@ msgstr ""
 
 #: old/bin/pe.pl:1048
 msgid "Select Customer"
-msgstr ""
+msgstr "Select Debtor"
 
 #: UI/setup/template_info.html:10
 msgid "Select Templates to Load"
@@ -6547,7 +6547,7 @@ msgstr ""
 
 #: old/bin/oe.pl:2545
 msgid "Select Vendor"
-msgstr ""
+msgstr "Select Creditor"
 
 #: old/bin/arapprn.pl:310 old/bin/is.pl:1437 old/bin/oe.pl:1279
 msgid "Select a Printer!"
@@ -6974,18 +6974,18 @@ msgstr ""
 
 #: old/bin/aa.pl:796 old/bin/io.pl:1666 old/bin/ir.pl:480 old/bin/is.pl:553
 msgid "State"
-msgstr ""
+msgstr "Province"
 
 #: UI/Contact/divs/address.html:87 UI/Contact/divs/address.html:154
 #: UI/Reports/filters/contact_search.html:112
 #: UI/Reports/filters/purchase_history.html:83
 #: t/data/04-complex_template.html:387
 msgid "State/Province"
-msgstr ""
+msgstr "Province"
 
 #: t/data/04-complex_template.html:454
 msgid "State/Province:"
-msgstr ""
+msgstr "Province"
 
 #: templates/demo/statement.html:20 templates/demo/statement.html:36
 #: templates/demo/statement.tex:48 sql/Pg-database.sql:2416
@@ -7244,15 +7244,15 @@ msgstr ""
 #: templates/demo/ap_transaction.html:178 templates/demo/ar_transaction.html:178
 #: templates/demo/invoice.html:231
 msgid "Taxes shown are included in price."
-msgstr ""
+msgstr "VAT shown is included in price"
 
 #: templates/demo/ar_transaction.html:50
 msgid "Taxnumber:"
-msgstr ""
+msgstr "VAT number:"
 
 #: templates/demo/ap_transaction.html:51
 msgid "Taxnumber: [_1]"
-msgstr ""
+msgstr "VAT number: [_1]"
 
 #: templates/demo/ar_transaction.html:47 templates/demo/ar_transaction.tex:42
 #: templates/demo/letterhead.tex:48
@@ -8107,15 +8107,15 @@ msgstr "Creditor"
 
 #: lib/LedgerSMB/Report/Invoices/Transactions.pm:246
 msgid "Vendor Account"
-msgstr ""
+msgstr "Creditor Account"
 
 #: lib/LedgerSMB/Report/GL.pm:112
 msgid "Vendor Customer"
-msgstr ""
+msgstr "Creditor Customer"
 
 #: sql/Pg-database.sql:2251
 msgid "Vendor History"
-msgstr ""
+msgstr "Creditor History"
 
 #: UI/Contact/divs/credit.html:363 t/data/04-complex_template.html:334
 #: sql/Pg-database.sql:2360
@@ -8124,12 +8124,12 @@ msgstr "Creditor Invoice"
 
 #: lib/LedgerSMB/Scripts/configuration.pm:116
 msgid "Vendor Invoice/AP Transaction Number"
-msgstr ""
+msgstr "Creditor Invoice/AP Transaction Number"
 
 #: UI/Reports/filters/orders.html:5 UI/payments/payment1.html:45
 #: UI/payments/payment2.html:29
 msgid "Vendor Name"
-msgstr ""
+msgstr "Creditor Name"
 
 #: lib/LedgerSMB/Report/Invoices/Payments.pm:114
 #: lib/LedgerSMB/Report/Invoices/Payments.pm:177
@@ -8146,11 +8146,11 @@ msgstr "Creditor Number"
 #: UI/Contact/pricelist.csv:20 UI/Contact/pricelist.html:34
 #: UI/Contact/pricelist.tex:29
 msgid "Vendor Partnumber"
-msgstr ""
+msgstr "Creditor Partnumber"
 
 #: old/bin/ic.pl:1001
 msgid "Vendor Reference Number"
-msgstr ""
+msgstr "Creditor Reference Number"
 
 #: UI/Reports/filters/contact_search.html:10
 msgid "Vendor Search"
@@ -8170,7 +8170,7 @@ msgstr "Creditor not on file!"
 
 #: lib/LedgerSMB/Report/Unapproved/Drafts.pm:105 UI/Reports/filters/gl.html:241
 msgid "Vendor/Customer"
-msgstr ""
+msgstr "Creditor/Customer"
 
 #: UI/Reports/filters/invoice_search.html:245
 msgid "Voided"
@@ -8364,7 +8364,7 @@ msgstr ""
 
 #: t/data/04-complex_template.html:388
 msgid "ZIP/Post Code"
-msgstr ""
+msgstr "Postal Code"
 
 #: old/lib/LedgerSMB/Num2text.pm:67
 msgid "Zero"
@@ -8372,20 +8372,20 @@ msgstr ""
 
 #: old/bin/io.pl:1669
 msgid "Zip Code"
-msgstr ""
+msgstr "Postal Code"
 
 #: UI/Contact/divs/address.html:88 UI/Contact/divs/address.html:161
 msgid "Zip/Post Code"
-msgstr ""
+msgstr "Postal Code"
 
 #: t/data/04-complex_template.html:463
 msgid "Zip/Post Code:"
-msgstr ""
+msgstr "Postal Code"
 
 #: UI/Reports/filters/contact_search.html:117
 #: UI/Reports/filters/purchase_history.html:91
 msgid "Zip/Postal Code"
-msgstr ""
+msgstr "Postal Code"
 
 #: lib/LedgerSMB/Report/PNL.pm:168
 msgid ""
